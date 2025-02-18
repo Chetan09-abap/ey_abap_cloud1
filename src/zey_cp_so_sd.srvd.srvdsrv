@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Sales Order'
+define service ZEY_CP_SO_SD {
+  expose ZC_EY_CP_SALES_ANA as SalesSet;
+}

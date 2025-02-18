@@ -1,0 +1,31 @@
+@Metadata.layer: #PARTNER
+@UI.headerInfo: {
+   typeName: 'Supplement',
+   typeNamePlural: 'Supplements',
+   title: { value: 'BookingId' },
+   description: { value: 'SupplementId' }   
+   }
+annotate entity ZEY_CP_BOOKSUPPL_PROJECTION
+    with 
+{
+     //TravelId;
+  
+   @UI.lineItem: [{ position: 10 }]
+   BookingId;
+   @UI.lineItem: [{ position: 20 }]
+   bookingdate;
+   @UI.lineItem: [{ position: 30 }]
+   customerid;
+   @UI.lineItem: [{ position: 40 }]
+   carrierid;
+   @UI.lineItem: [{ position: 50 }]
+   connectionid;
+   @UI.lineItem: [{ position: 60 }]
+   flightdate;
+   @UI.lineItem: [{ position: 70 }]
+   flightprice;
+   @UI.lineItem: [{ position: 80 }]
+   CurrencyCode;
+//    BookingStatus;
+//    LastChangedAt;
+}
